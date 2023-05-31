@@ -1,0 +1,30 @@
+{
+    "name": "acseo/sylius-prometheus-metrics-plugin",
+    "type": "sylius-plugin",
+    "keywords": [
+        "sylius",
+        "sylius-plugin",
+        "sylius-observability",
+        "sylius-metrics",
+        "sylius-prometheus"
+    ],
+    "description": "Sylius Prometheus Metrics Plugin",
+
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "sylius/sylius": "^1.12"
+    },
+    "require-dev": {
+        "artprima/prometheus-metrics-bundle": "^1.16"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Acseo\\SyliusPrometheusMetricsPlugin\\": "src/",
+            "Tests\\Acseo\\SyliusPrometheusMetricsPlugin\\": "tests/"
+        }
+    }
+}

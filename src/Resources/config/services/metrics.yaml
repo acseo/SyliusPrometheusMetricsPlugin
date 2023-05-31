@@ -1,0 +1,7 @@
+services:
+    metrics.order_collector:
+        class: Acseo\SyliusPrometheusMetricsPlugin\Collector\Order
+        arguments:
+            - '%env(PROM_METRICS_NAMESPACE)%'
+            - '@prometheus_metrics_bundle.collector_registry'
+        public: true
