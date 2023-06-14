@@ -1,5 +1,9 @@
-.idea/
-.DS_Store
-
 /vendor/
+/node_modules/
 /composer.lock
+
+/.phpunit.result.cache
+
+/.idea
+/.idea/
+.DS_Store

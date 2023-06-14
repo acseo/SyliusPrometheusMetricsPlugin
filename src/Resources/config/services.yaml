@@ -1,2 +1,7 @@
-imports:
-    - { resource: services/*.yaml }
+services:
+    metrics.order_collector:
+        class: ACSEO\SyliusPrometheusMetricsPlugin\Collector\Order
+        arguments:
+            - '%prometheus_metrics_bundle.namespace%'
+            - '@prometheus_metrics_bundle.collector_registry'
+        public: true

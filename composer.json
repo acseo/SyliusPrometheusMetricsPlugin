@@ -9,22 +9,22 @@
         "sylius-prometheus"
     ],
     "description": "Sylius Prometheus Metrics Plugin",
-
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "sylius/sylius": "^1.12"
+        "sylius/sylius": "~1.11.0 || ~1.12.0",
+        "artprima/prometheus-metrics-bundle": "~1.16.0 || ~1.17.0"
     },
     "require-dev": {
-        "artprima/prometheus-metrics-bundle": "^1.16"
+        "phpunit/phpunit": "^10.2"
     },
     "config": {
         "sort-packages": true
     },
     "autoload": {
         "psr-4": {
-            "Acseo\\SyliusPrometheusMetricsPlugin\\": "src/",
-            "Tests\\Acseo\\SyliusPrometheusMetricsPlugin\\": "tests/"
+            "ACSEO\\SyliusPrometheusMetricsPlugin\\": "src/",
+            "Tests\\ACSEO\\SyliusPrometheusMetricsPlugin\\": "tests/"
         }
     }
 }

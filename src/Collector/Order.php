@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Acseo\SyliusPrometheusMetricsPlugin\Collector;
+namespace ACSEO\SyliusPrometheusMetricsPlugin\Collector;
 
 use Prometheus\CollectorRegistry;
 use Sylius\Component\Core\Model\OrderInterface;
@@ -31,6 +31,6 @@ class Order
             'amount of completed orders',
             ['order']
         );
-        $amountCounter->incBy($order->getTotal(), ['all']);
+        $amountCounter->incBy($order->getTotal() / 100, ['all']);
     }
 }
