@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://www.acseo.fr" target="_blank">
-        <img src="https://www.acseo.fr/assets/img/logo-200.png" alt="ACSEO" style="width: 300px"/>
+        <img src="[https://www.acseo.fr/assets/img/logo-200.png](https://www.acseo.fr/wp-content/uploads/2024/01/logo-1.png)" alt="ACSEO" style="width: 300px"/>
     </a>
 </p>
 <h1 align="center">
