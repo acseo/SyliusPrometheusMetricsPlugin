@@ -26,5 +26,8 @@
             "ACSEO\\SyliusPrometheusMetricsPlugin\\": "src/",
             "Tests\\ACSEO\\SyliusPrometheusMetricsPlugin\\": "tests/"
         }
+    },
+    "scripts": {
+        "phpunit": "phpunit"
     }
 }
