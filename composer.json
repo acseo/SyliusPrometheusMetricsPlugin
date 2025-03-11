@@ -28,6 +28,6 @@
         }
     },
     "scripts": {
-        "phpunit": "phpunit"
+        "phpunit": "phpunit tests/PHPUnit"
     }
 }
