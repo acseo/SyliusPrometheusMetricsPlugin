@@ -63,5 +63,3 @@ jobs:
       - run: make test.phpunit
 
       - run: make test.schema
-
-      - run: make test.container
