@@ -2,7 +2,7 @@
 
 namespace Tests\ACSEO\SyliusPrometheusMetricsPlugin\PHPUnit\Collector;
 
-use Acseo\SyliusPrometheusMetricsPlugin\Collector\Order;
+use ACSEO\SyliusPrometheusMetricsPlugin\Collector\Order;
 use PHPUnit\Framework\TestCase;
 use Prometheus\CollectorRegistry;
 use Prometheus\Counter;
