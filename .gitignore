@@ -1,9 +1,33 @@
-/vendor/
-/node_modules/
-/composer.lock
-
-/.phpunit.result.cache
-
 /.idea
 /.idea/
 .DS_Store
+
+
+/vendor/
+/composer.lock
+
+/etc/build/*
+!/etc/build/.gitignore
+
+/tests/Application
+
+/behat.yml
+/phpspec.yml
+
+/package-lock.json
+/.secrets
+/.php-version
+/php.ini
+/.phpunit.result.cache
+/yarn.lock
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###

@@ -28,7 +28,11 @@ Default metrics are generated. It is possible to create custom metrics to track 
 </p>
 
 
-## Installation
+## Installation for development
+
+1. Run `make install`.
+
+## Installation on your project
 
 1. Run `$ composer require acseo/sylius-prometheus-metrics-plugin`.
 
