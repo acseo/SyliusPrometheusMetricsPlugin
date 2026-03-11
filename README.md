@@ -97,7 +97,7 @@ when@test:
 
 ```yaml
 app_metrics:
-    resource: '@ArtprimaPrometheusMetricsBundle/Resources/config/routing.xml'
+    resource: '@ArtprimaPrometheusMetricsBundle/Resources/config/routing.yaml'
 ```
 
 
