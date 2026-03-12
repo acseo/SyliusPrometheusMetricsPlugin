@@ -1,0 +1,5 @@
+# The Flex recipe for artprima/prometheus-metrics-bundle still references routing.xml
+# which no longer exists since v1.21.0. This file overrides it until the recipe is fixed.
+# See: https://github.com/symfony/recipes-contrib/pull/1948
+app_metrics:
+    resource: '@ArtprimaPrometheusMetricsBundle/Resources/config/routing.yaml'
